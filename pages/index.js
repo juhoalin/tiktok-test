@@ -14,7 +14,7 @@ export default function Home() {
           Welcome to <a href="https://nextjs.org">Juho's website</a>
         </h1>
         <div className='demoVideo'>
-          <h2>My personal TikTok videos here</h2>
+          <h2>My personal TikTok videos from Dislay API here</h2>
         </div>
         <div className='legalTextBlock'>
           <h1>Terms of Service</h1>
