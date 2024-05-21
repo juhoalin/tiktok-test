@@ -17,7 +17,7 @@ export default function Home() {
           <h2>My personal TikTok videos from Display API here</h2>
         </div>
         <div className='legalTextBlock'>
-          <h1>Terms of Service</h1>
+          <h1 id='terms-of-service'>Terms of Service</h1>
           <p><strong>Last Updated:</strong> 21/05/2024</p>
     <p><strong>Effective Date:</strong> 21/05/2024</p>
 
@@ -76,7 +76,7 @@ export default function Home() {
     <p><strong>Effective Date:</strong> 21/05/2024</p>
         </div>
         <div className='legalTextBlock'>
-        <h1>Privacy Policy</h1>
+        <h1 id='privacy-policy'>Privacy Policy</h1>
     <p><strong>Last Updated:</strong> 21/05/2024</p>
     <p><strong>Effective Date:</strong> 21/05/2024</p>
 
