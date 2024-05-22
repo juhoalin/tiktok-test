@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import styles from '../styles/Home.module.css';
+import Link from 'next/link';
 
 export default function Home() {
   return (
@@ -13,6 +14,10 @@ export default function Home() {
         <h1 className={styles.title}>
           Welcome to <a href="https://nextjs.org">Juho's website</a>
         </h1>
+       <Link href="/feed">FEED</Link>
+        <video autoPlay controls="true">
+          <source src="https://api.apify.com/v2/key-value-stores/XivMHBOfgziQNgycN/records/video-6862153058223197445" type="video/mp4" />
+        </video>
         <div className='demoVideo'>
           <h2>My personal TikTok videos from Display API here</h2>
         </div>
@@ -163,6 +168,7 @@ export default function Home() {
         .demoVideo h2 {
           text-align: center;
         }
+
         main {
           padding: 5rem 0;
           flex: 1;
