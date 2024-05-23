@@ -46,10 +46,10 @@ const VideoComponent = ({ src }) => {
 
                 @media (max-width: 600px) {
                     .container {
-                        min-width: 100vw;
-                        min-height: 100vh;
-                        max-width: 100vw;
-                        max-height: 100vh;
+                        min-width: 100svw;
+                        min-height: 100svh;
+                        max-width: 100svw;
+                        max-height: 100svh;
                         display: flex;
                         justify-content: center;
                         align-items: center;
