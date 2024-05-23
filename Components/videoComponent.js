@@ -29,7 +29,7 @@ const VideoComponent = ({ src }) => {
 
     return (
         <div className='container'>
-            <video ref={videoRef} className='video-component' autoPlay muted loop>
+            <video ref={videoRef} className='video-component' autoPlay muted loop playsinline>
                 <source src={src} type="video/mp4" />
             </video>
       
